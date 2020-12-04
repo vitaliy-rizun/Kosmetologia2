@@ -40,10 +40,11 @@ body {
 p.name {
   /* padding-left: 10px; */
   text-align: center;
-  color: #f010f0;
+  color: #f01010;
   font-size: 20px;
-  max-width: 200px;
+  width: 200px;
   display: inline-block;
+  margin: 0;
   /* text-decoration: none; */
   /* background-repeat: no-repeat; */
   /* background-position: left; */
@@ -68,13 +69,13 @@ p.name {
   /* width: 16px;
   height: 16px; */
   padding-left: 25px;
-  background-image: url("img/phone.svg");
+  background-image: url("img/phone.png");
   /* background-size: contain; */
 }
 
 .header-viber {
   padding-left: 25px;
-  background-image: url("img/viber.svg");
+  background-image: url("img/viber.png");
   /* background-repeat: no-repeat; */
   /* background-size: contain; */
   /* background-position: left; */
@@ -82,7 +83,7 @@ p.name {
 
 .header-instagram {
   padding-left: 25px;
-  background-image: url("img/instagram.svg");
+  background-image: url("img/instagram.png");
 }
 
 .hero-image {
@@ -100,7 +101,7 @@ p.name {
 
 .heading {
   margin: 0 0 16px;
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   font-size: 88px;
   line-height: 96px;
   font-weight: 400;
@@ -111,7 +112,7 @@ p.name {
 
 .spisok {
   margin-left: 20px;
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   font-size: 40px;
   line-height: 76px;
 }
@@ -164,14 +165,14 @@ img.irina {
 }
 
 #catalog A {
-  color: black;
+  color: #1fa0e2;
   /* vertical-align: bottom; */
 
   /* border: #180303 solid 3px; */
 
 }
 #catalog A:hover {
-  color: #1fa0e2;
+  color: red;
 }
 #catalog DIV {
   width: 300px; /* Ширина */
@@ -281,6 +282,16 @@ img.irina {
   border: rgb(47, 12, 202) solid 3px;
   width: 270px;
   border-radius: 20px;
+  margin-top: 20px;
   /* color: #00417d; */
   /* text-decoration: none; */
+}
+
+/* .next-font {
+  font-family: "Lobster", cursive;
+  font-size: 40px;
+} */
+
+.work {
+  color: #f01010;
 }
